@@ -14,3 +14,5 @@ https://github.com/robinahunter/Giphy-Search-App.git
 
 
 ## Resources Used For This Project
+
+General Assembly
