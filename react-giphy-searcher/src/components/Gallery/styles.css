@@ -4,7 +4,7 @@ figure {
     min-height: 200px;
     padding: 1vh;
     cursor: pointer;
-} */
+} 
 figure img {
     width: calc(100% - 2rem);
     height: 16vh !important;
