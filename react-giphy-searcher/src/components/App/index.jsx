@@ -46,7 +46,7 @@ return (
           <div className="flex-grow">
               <ul className="flex justify-end text-white bg-gradient-to-r from-pink-500 to-yellow-500 text-lg font-medium">
                 <li className='nav'>
-                  <Link to="/">
+                  <Link to="/Giphy-Search-App/">
                     <p className="border-r-4 border-black p-2 hover:text-pink-200">Home</p>
                   </Link>
                 </li>
