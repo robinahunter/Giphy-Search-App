@@ -35,7 +35,7 @@ export default function SearchPage(props) {
                 <br /><br />
                 <div className="flex items-center"> 
                 <input
-                    className="max-w-7xl mx-auto p-2 w-[90vw] rounded border border-gray-300 focus:outline-none focus:border-purple-500"
+                    className="max-w-4xl mx-auto p-2 w-[90vw] rounded border border-gray-300 focus:outline-none focus:border-purple-500"
                     name="search"
                     placeholder="search..."
                     value={query}
