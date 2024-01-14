@@ -5,7 +5,7 @@ import AboutPage from '../AboutPage'
 import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
-import arrowDownWHT from '../src/assets/arrow-downWHT.svg';
+import arrowDownWHT from '/src/assets/arrow-downWHT.svg';
 
 
 function App() {
@@ -37,7 +37,7 @@ return (
             <Link to="/home">
               <ul className="flex justify-end">
                 <li>
-                <img className="lh-1 mx-auto h-12" src={arrowDownWHT} alt="Arrow Down White" />
+                <img className="lh-1 mx-auto h-12" src="/src/assets/lightingBolt1.svg" />
                 </li>
                 <li>
                   <h2 className="px-2 flex animate-pulse text-white font-bold logo text-3xl">UR GIPHY</h2>
@@ -90,7 +90,7 @@ return (
       <Route path="/*" element={<NotFoundPage />} />
     </Routes>
     <div>
-      <img className="ml-5 mb-5 w-15 text-pink-600" src="src/assets/Poweredby_100px-Black_VertLogo.png" />
+      <img className="ml-5 mb-5 w-15 text-pink-600" src="/src/assets/Poweredby_100px-Black_VertLogo.png" />
     </div>
     </>
   )
