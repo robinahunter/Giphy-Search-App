@@ -7,7 +7,7 @@ export default function HomePage(props) {
             <h1 className='font-bold text-white'>BROWSE GIPHY's!</h1>
             <br />
             <h1>
-                <img className="lh-0.5 mx-auto animate-bounce w-7 h-7 text-pink-600" src="/src/assets/arrow-downWHT.svg" />
+                <img className="lh-0.5 mx-auto animate-bounce w-7 h-7 text-pink-600" src="./src/assets/arrow-downWHT.svg" />
             </h1>
             <Gallery
                 images={props.images}

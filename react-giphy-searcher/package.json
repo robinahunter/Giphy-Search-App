@@ -2,6 +2,7 @@
   "name": "react-giphy-searcher",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://robinahunter.github.io/Giphy-Search-App/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
