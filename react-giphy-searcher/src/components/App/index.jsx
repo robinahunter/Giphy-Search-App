@@ -5,7 +5,7 @@ import AboutPage from '../AboutPage'
 import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
-import lightingBolt1 from '/assets/lightingBolt1.svg'
+import lightingBolt1 from '../../assets/lightingBolt1.svg'
 
 
 function App() {
