@@ -34,7 +34,7 @@ return (
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/home">
+            <Link to="/">
               <ul className="flex justify-end">
                 <li>
                   <img className="lh-1 mx-auto h-12" src={lightingBolt1} alt="Lighting Bolt" />
@@ -48,7 +48,7 @@ return (
           <div className="flex-grow">
               <ul className="flex justify-end text-white bg-gradient-to-r from-pink-500 to-yellow-500 text-lg font-medium">
                 <li className='nav'>
-                  <Link to="/home">
+                  <Link to="/">
                     <p className="border-r-4 border-black p-2 hover:text-pink-200">Home</p>
                   </Link>
                 </li>
@@ -77,7 +77,7 @@ return (
     </nav>
     {/* Routes */}
     <Routes>
-      <Route path="/home" element={
+      <Route path="/" element={
         <HomePage
           images={images}
           getData={getData}
