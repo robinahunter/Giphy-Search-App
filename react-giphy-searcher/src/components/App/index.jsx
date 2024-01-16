@@ -6,6 +6,7 @@ import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
 import lightingBolt1 from '../../assets/lightingBolt1.svg'
+import poweredByGiphy from '../../assets/Poweredby_100px-Black_VertLogo.png'
 
 
 function App() {
@@ -90,7 +91,7 @@ return (
       <Route path="/*" element={<NotFoundPage />} />
     </Routes>
     <div>
-      <img className="ml-5 mb-5 w-15 text-pink-600" src="/src/assets/Poweredby_100px-Black_VertLogo.png" />
+      <img className="ml-5 mb-5 w-15 text-pink-600" src={poweredByGiphy} alt="Powered by Giphy" />
     </div>
     </>
   )
