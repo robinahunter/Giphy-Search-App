@@ -5,7 +5,6 @@ import AboutPage from '../AboutPage'
 import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
-import ArrowDownWHT from 'src/assets/arrow-downWHT.svg'
 import LightingBolt1 from 'src/assets/lightingBolt1.svg'
 
 
