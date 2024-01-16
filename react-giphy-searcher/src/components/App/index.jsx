@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react'
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom"
 import HomePage from '../HomePage'
 import AboutPage from '../AboutPage'
 import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
-import arrowDownWHT from '/src/assets/arrow-downWHT.svg';
+import ArrowDownWHT from 'src/assets/arrow-downWHT.svg'
+import LightingBolt1 from 'src/assets/lightingBolt1.svg'
 
 
 function App() {
@@ -37,7 +38,7 @@ return (
             <Link to="/home">
               <ul className="flex justify-end">
                 <li>
-                <img className="lh-1 mx-auto h-12" src="/src/assets/lightingBolt1.svg" />
+                  <LightingBolt1 className="lh-1 mx-auto h-12" />
                 </li>
                 <li>
                   <h2 className="px-2 flex animate-pulse text-white font-bold logo text-3xl">UR GIPHY</h2>
