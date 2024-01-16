@@ -6,7 +6,7 @@ import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
 import lightingBolt1 from '../../assets/lightingBolt1.svg'
-import poweredByGiphy from '../../assets/Poweredby_100px-Black_VertLogo.png'
+import poweredByGiphy from '../../assets/Poweredby_100px-Black_VertLogo.png';
 
 
 function App() {
