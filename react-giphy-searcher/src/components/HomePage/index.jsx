@@ -1,5 +1,5 @@
 import Gallery from '../Gallery'
-import arrowDownWHT from './assets/arrow-downWHT.svg';
+import arrowDownWHT from '@/assets/arrow-downWHT.svg';
 
 export default function HomePage(props) {
     return (
