@@ -1,5 +1,5 @@
 import Gallery from '../Gallery'
-import ArrowDownWHT from 'src/assets/arrow-downWHT.svg'
+import arrowDownWHT from './assets/arrow-downWHT.svg';
 
 export default function HomePage(props) {
     return (
@@ -8,7 +8,7 @@ export default function HomePage(props) {
             <h1 className='font-bold text-white'>BROWSE GIPHY's!</h1>
             <br />
             <h1>
-                <img className="lh-0.5 mx-auto animate-bounce w-7 h-7 text-pink-600" src={ArrowDownWHT} alt="ArrowDownWHT" />
+                <img className="lh-0.5 mx-auto animate-bounce w-7 h-7 text-pink-600" src={arrowDownWHT} alt="Arrow" />
             </h1>
             <Gallery
                 images={props.images}

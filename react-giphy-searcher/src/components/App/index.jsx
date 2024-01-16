@@ -5,7 +5,7 @@ import AboutPage from '../AboutPage'
 import SearchPage from '../SearchPage'
 import DetailsPage from '../DetailsPage'
 import NotFoundPage from '../NotFoundPage'
-import LightingBolt1 from 'src/assets/lightingBolt1.svg'
+import lightingBolt1 from './assets/lightingBolt1.svg'
 
 
 function App() {
@@ -37,7 +37,7 @@ return (
             <Link to="/home">
               <ul className="flex justify-end">
                 <li>
-                  <img className="lh-1 mx-auto h-12" src={LightingBolt1} alt="Lighting Bolt" />
+                  <img className="lh-1 mx-auto h-12" src={lightingBolt1} alt="Lighting Bolt" />
                 </li>
                 <li>
                   <h2 className="px-2 flex animate-pulse text-white font-bold logo text-3xl">UR GIPHY</h2>
