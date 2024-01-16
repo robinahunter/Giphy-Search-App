@@ -38,7 +38,7 @@ return (
             <Link to="/home">
               <ul className="flex justify-end">
                 <li>
-                  <LightingBolt1 className="lh-1 mx-auto h-12" />
+                  <img className="lh-1 mx-auto h-12" src={LightingBolt1} alt="Lighting Bolt" />
                 </li>
                 <li>
                   <h2 className="px-2 flex animate-pulse text-white font-bold logo text-3xl">UR GIPHY</h2>
