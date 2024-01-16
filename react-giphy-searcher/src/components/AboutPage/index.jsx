@@ -1,14 +1,9 @@
-import arrowDownWHT from '../../assets/arrow-downWHT.svg';
-
 export default function AboutPage() {
     return (
         <>
             <br />
             <h1 className='font-bold text-white'>About Gif's</h1>
             <br />
-            <h1>
-                <img className="lh-0.5 mx-auto animate-bounce w-7 h-7 text-pink-600" src={arrowDownWHT} alt="Arrow" />
-            </h1>
             <br />
             <h2 className="text-white mx-auto w-[75vw] text-3xl font-bold">The GIF is over 30 years old! <br /> It didn't just shape the internet — it grew up with the internet.</h2>
             <br />
