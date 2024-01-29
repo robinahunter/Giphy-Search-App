@@ -17,7 +17,7 @@ https://github.com/robinahunter/Giphy-Search-App.git
 
 ## Resources Used For This Project
 
-General Assembly - Scott Draper
+Class Project at General Assembly - Instructor, Scott Draper
 
 Deploying Vite, React to GH-Pages:
 https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
